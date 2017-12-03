@@ -1,11 +1,7 @@
-package br.com.david.bean.view;
-
-import br.com.david.bean.dependent.TesteDependentBean;
+package br.com.david.bean.dependent;
 
 import javax.annotation.PostConstruct;
-import javax.faces.context.FacesContext;
-import javax.faces.view.ViewScoped;
-import javax.inject.Inject;
+import javax.enterprise.context.Dependent;
 import javax.inject.Named;
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -14,23 +10,24 @@ import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
 @Named
-@ViewScoped
-public class TesteViewBean implements Serializable
-{
+@Dependent
+public class TesteDependentBean implements Serializable {
     private List<String> pessoas;
     private List<String> pessoasSelecionadas = new ArrayList<>();
-    private final TesteDependentBean dependentBean;
+    private List<String> categoriasList = new ArrayList<>();
 
-    @Inject
-    public TesteViewBean(TesteDependentBean dependentBean)
-    {
-        this.dependentBean = dependentBean;
+    public List<String> getCategoriasList() {
+        return categoriasList;
+    }
+
+    public void setCategoriasList(List<String> categoriasList) {
+        this.categoriasList = categoriasList;
     }
 
     @PostConstruct
     public void init()
     {
-        System.out.println("Entrou no postContruct do ViewScoped");
+        System.out.println("Entrou no postContruct do Dependent bean");
         this.pessoas = Arrays.asList("David","Marinete","josé");
     }
 
@@ -39,8 +36,6 @@ public class TesteViewBean implements Serializable
         int index = ThreadLocalRandom.current().nextInt(3);
         String pessoa = pessoas.get(index);
         pessoasSelecionadas.add(pessoa);
-        dependentBean.getPessoasSelecionadas().add(pessoa);
-
     }
 
 
@@ -60,7 +55,5 @@ public class TesteViewBean implements Serializable
         this.pessoasSelecionadas = pessoasSelecionadas;
     }
 
-    public TesteDependentBean getDependentBean() {
-        return dependentBean;
-    }
+
 }

@@ -10,7 +10,10 @@
 <h:body>
     <h:form>
         <h:outputText value="#{testeApplicationBean.categoriaList}"></h:outputText>
+        <h:outputText value="#{testeApplicationBean.dependentBean.categoriasList}"></h:outputText>
+
         <h:outputText value="#{testeViewBean.pessoasSelecionadas}"></h:outputText>
+        <h:outputText value="#{testeViewBean.dependentBean.pessoasSelecionadas}"></h:outputText>
         <h:commandButton actionListener="#{testeViewBean.selecionarPessoa}"
                          value="Seleciona pessoa"></h:commandButton>
 
