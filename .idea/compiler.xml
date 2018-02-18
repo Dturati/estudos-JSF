@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="marotana-jsf" />
         <module name="marotana_jsf" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="marotana-jsf" target="1.8" />
       <module name="marotana_jsf" target="1.8" />
     </bytecodeTargetLevel>
   </component>

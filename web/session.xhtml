@@ -9,6 +9,7 @@
 <h:head></h:head>
 <h:body>
     <h:form>
+        <h:outputText value="Estudante logado: #{testeApplicationBean.sessionBean.estudante.nome}"></h:outputText><br></br>
         <h:outputText value="#{testeApplicationBean.categoriaList}"></h:outputText>
         <h:outputText value="#{testeSessionBean.pessoasSelecionadas}"></h:outputText>
         <h:commandButton actionListener="#{testeSessionBean.selecionarPessoa}"

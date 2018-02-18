@@ -1,5 +1,7 @@
 package br.com.david.bean.session;
 
+import br.com.david.model.Estudante;
+
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.RequestScoped;
 import javax.enterprise.context.SessionScoped;
@@ -18,11 +20,28 @@ public class TesteSessionBean implements Serializable
     private List<String> pessoas;
     private List<String> pessoasSelecionadas = new ArrayList<>();
 
+    public Estudante getEstudante() {
+        return estudante;
+    }
+
+    public void setEstudante(Estudante estudante) {
+        this.estudante = estudante;
+    }
+
+    private Estudante estudante;
+
     @PostConstruct
     public void init()
     {
         System.out.println("Entrou no postContruct do SessionScoped");
         this.pessoas = Arrays.asList("David","Marinete","josé");
+        this.logar();
+    }
+
+    public void logar(){
+        System.out.println("Um");
+        System.out.println("Dois");
+        estudante = new Estudante();
     }
 
     public void selecionarPessoa()

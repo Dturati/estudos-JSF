@@ -1,9 +1,9 @@
 package br.com.david.bean.view;
 
 import br.com.david.bean.dependent.TesteDependentBean;
+import br.com.david.bean.session.TesteSessionBean;
 
 import javax.annotation.PostConstruct;
-import javax.faces.context.FacesContext;
 import javax.faces.view.ViewScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
@@ -20,11 +20,13 @@ public class TesteViewBean implements Serializable
     private List<String> pessoas;
     private List<String> pessoasSelecionadas = new ArrayList<>();
     private final TesteDependentBean dependentBean;
+    private final TesteSessionBean sessionBean;
 
     @Inject
-    public TesteViewBean(TesteDependentBean dependentBean)
+    public TesteViewBean(TesteDependentBean dependentBean, TesteSessionBean sessionBean)
     {
         this.dependentBean = dependentBean;
+        this.sessionBean = sessionBean;
     }
 
     @PostConstruct
@@ -43,6 +45,9 @@ public class TesteViewBean implements Serializable
 
     }
 
+    public TesteSessionBean getSessionBean() {
+        return sessionBean;
+    }
 
     public List<String> getPessoas() {
         return pessoas;
