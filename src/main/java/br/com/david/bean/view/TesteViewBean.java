@@ -11,6 +11,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 import java.util.concurrent.ThreadLocalRandom;
 
 @Named
@@ -21,6 +22,23 @@ public class TesteViewBean implements Serializable
     private List<String> pessoasSelecionadas = new ArrayList<>();
     private final TesteDependentBean dependentBean;
     private final TesteSessionBean sessionBean;
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        TesteViewBean that = (TesteViewBean) o;
+        return Objects.equals(pessoas, that.pessoas) &&
+                Objects.equals(pessoasSelecionadas, that.pessoasSelecionadas) &&
+                Objects.equals(dependentBean, that.dependentBean) &&
+                Objects.equals(sessionBean, that.sessionBean);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(pessoas, pessoasSelecionadas, dependentBean, sessionBean);
+    }
 
     @Inject
     public TesteViewBean(TesteDependentBean dependentBean, TesteSessionBean sessionBean)

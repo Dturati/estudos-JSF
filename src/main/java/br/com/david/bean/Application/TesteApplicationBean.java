@@ -23,15 +23,20 @@ public class TesteApplicationBean implements Serializable
 
 
     public TesteSessionBean getSessionBean() {
+
         return sessionBean;
     }
 
-    public TesteDependentBean getDependentBean() {
+    public TesteDependentBean getDependentBean()
+    {
         return dependentBean;
     }
 
+    //Onjeção de escopo
     @Inject
-    public TesteApplicationBean(TesteDependentBean dependentBean,TesteSessionBean sessionBean) {
+    public TesteApplicationBean(
+            TesteDependentBean dependentBean,
+            TesteSessionBean sessionBean) {
         this.dependentBean = dependentBean;
         this.sessionBean = sessionBean;
     }

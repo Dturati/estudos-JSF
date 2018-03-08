@@ -16,6 +16,7 @@
         </element>
       </element>
       <element id="javaee-facet-resources" facet="marotana_jsf/web/Web" />
+      <element id="javaee-facet-resources" facet="marotana_jsf/web/Web2" />
     </root>
   </artifact>
 </component>

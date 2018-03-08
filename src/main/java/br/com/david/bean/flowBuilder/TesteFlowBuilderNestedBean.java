@@ -25,7 +25,6 @@ public class TesteFlowBuilderNestedBean implements Serializable
             context.addMessage(null,new FacesMessage(FacesMessage.SEVERITY_ERROR,"Usuário não passou nas pendendias","Detalhes"));
             return null;
         }
-//        return "proceedToRegistration3";
         return "proceedToNewRegistration3";
     }
 

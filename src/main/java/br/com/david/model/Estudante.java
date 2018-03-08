@@ -4,8 +4,10 @@ import br.com.david.model.enums.Turno;
 
 public class Estudante {
 
-    private String nome = "David";
+    private String nome = "david";
     private String sobrenome = "Turati";
+    private String credencial = "123";
+
     private double nota1 = 10;
     private double nota2 = 10;
     private double nota3 = 10;
@@ -57,5 +59,13 @@ public class Estudante {
 
     public void setTurno(Turno turno) {
         this.turno = turno;
+    }
+
+    public String getCredencial() {
+        return credencial;
+    }
+
+    public void setCredencial(String credencial) {
+        this.credencial = credencial;
     }
 }
