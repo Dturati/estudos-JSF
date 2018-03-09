@@ -9,7 +9,7 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
     <welcome-file-list>
-        <welcome-file>login.xhtml</welcome-file>
+        <welcome-file>comunicacao.xhtml</welcome-file>
     </welcome-file-list>
     <servlet-mapping>
         <servlet-name>Faces Servlet</servlet-name>
@@ -34,4 +34,8 @@
     <error-page>
         <location>/error.xhtml</location>
     </error-page>
+    <context-param>
+        <param-name>images.location</param-name>
+        <param-value>/var</param-value>
+    </context-param>
 </web-app>

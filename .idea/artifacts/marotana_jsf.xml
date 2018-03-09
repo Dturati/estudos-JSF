@@ -13,6 +13,8 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.primefaces:primefaces:6.0" />
+          <element id="library" level="project" name="Maven: org.omnifaces:omnifaces:3.0" />
+          <element id="library" level="project" name="Maven: org.omnifaces:omnifaces:2.6.8" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="marotana_jsf/web/Web" />
