@@ -1,7 +1,8 @@
-./idea
-/target
-/out
 .idea
-target
-classes
+*target*
+*out*
+*target*
 out
+target/*
+target
+*.idea*
