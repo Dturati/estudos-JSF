@@ -38,6 +38,7 @@
     </dependencies>
 
     <build>
+        <finalName>maratona_jsf</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
