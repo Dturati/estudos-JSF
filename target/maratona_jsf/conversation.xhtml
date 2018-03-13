@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+    <f:metadata>
+        <f:viewAction action="#{testeConversationBean.init}"></f:viewAction>
+    </f:metadata>
+</h:head>
+<h:body>
+    <h:form>
+        <h:outputText value="#{testeApplicationBean.categoriaList}"></h:outputText>
+        <h:outputText value="#{testeConversationBean.pessoasSelecionadas}"></h:outputText>
+        <h:commandButton actionListener="#{testeConversationBean.selecionarPessoa}"
+                         value="Seleciona pessoa"></h:commandButton>
+
+        <h:commandButton actionListener="#{testeConversationBean.selecionarPessoa}"
+                         value="Seleciona pessoa foward" action="conversation2"></h:commandButton>
+        <h:commandButton actionListener="#{testeConversationBean.selecionarPessoa}"
+                         value="Seleciona pessoa redirect" action="conversation2?faces-redirect=true"></h:commandButton>
+
+        <h:link outcome="conversation2" value="conversation 2" rendered="#{!testeConversationBean.conversation.isTransient()}">
+            <f:param name="cid" value="#{testeConversationBean.conversation.id}"></f:param>
+        </h:link>
+
+        <h:commandButton action="#{testeConversationBean.endoConversation}"
+                         value="Finalizar conversation scoped" ></h:commandButton>
+    </h:form>
+</h:body>
+<!-- David comentario -->
+</html>

@@ -7,86 +7,118 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21899008-a08f-424d-ae55-8a7e08635883" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/marotana_jsf.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/maratona_jsf.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/marotana_jsf.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/marotana_jsf_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/marotana_jsf_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/beans.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/classes/br/com/david/bean/Application/TesteApplicationBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/classes/br/com/david/bean/comunicacao/ComunicacaoTesteDoisBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/classes/br/com/david/bean/comunicacao/ComunicacaoTesteUmBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/classes/br/com/david/bean/conversation/TesteConversationBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/classes/br/com/david/bean/dependent/TesteDependentBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/classes/br/com/david/bean/estudante/EstudanteRegistrarBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/classes/br/com/david/bean/flow/TesteFlowBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/classes/br/com/david/bean/flow/TesteFlowNestedBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/classes/br/com/david/bean/flowBuilder/TesteFlowBuilderBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/classes/br/com/david/bean/flowBuilder/TesteFlowBuilderNestedBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/classes/br/com/david/bean/login/LoginBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/classes/br/com/david/bean/request/TesteRequestBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/classes/br/com/david/bean/session/TesteSessionBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/classes/br/com/david/bean/view/TesteViewBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/classes/br/com/david/filter/LoginFilter.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/classes/br/com/david/flowbuilder/NewPendencesFlowBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/classes/br/com/david/flowbuilder/NewRegistrationFlowBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/classes/br/com/david/model/Estudante.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/classes/br/com/david/model/enums/Turno.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/faces-config.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/lib/jsf-api-2.2.13.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/lib/omnifaces-2.6.8.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/lib/primefaces-6.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/comunicacao.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/comunicacaoDois.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/conversation.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/conversation2.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/dependent.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/dependent2.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/error.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/index.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/index2.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/inicioflow.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/login.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/newpendencies/newpendencies.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/newregistration/newregistration.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/newregistration/newregistration2.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/newregistration/newregistration3.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/pendencies/pendencies-flow.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/pendencies/pendencies.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/registration/registration-flow.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/registration/registration1.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/registration/registration2.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/registration/registration3.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/request.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/restricted/iniciosistema.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/session.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/session2.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/marotana_jsf/view.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/br/com/david/bean/comunicacao/ComunicacaoTesteDoisBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/br/com/david/bean/comunicacao/ComunicacaoTesteUmBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf.war" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/beans.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/classes/br/com/david/bean/Application/TesteApplicationBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/classes/br/com/david/bean/comunicacao/ComunicacaoTesteDoisBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/classes/br/com/david/bean/comunicacao/ComunicacaoTesteUmBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/classes/br/com/david/bean/conversation/TesteConversationBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/classes/br/com/david/bean/dependent/TesteDependentBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/classes/br/com/david/bean/estudante/EstudanteRegistrarBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/classes/br/com/david/bean/flow/TesteFlowBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/classes/br/com/david/bean/flow/TesteFlowNestedBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/classes/br/com/david/bean/flowBuilder/TesteFlowBuilderBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/classes/br/com/david/bean/flowBuilder/TesteFlowBuilderNestedBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/classes/br/com/david/bean/login/LoginBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/classes/br/com/david/bean/request/TesteRequestBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/classes/br/com/david/bean/session/TesteSessionBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/classes/br/com/david/bean/view/TesteViewBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/classes/br/com/david/filter/LoginFilter.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/classes/br/com/david/flowbuilder/NewPendencesFlowBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/classes/br/com/david/flowbuilder/NewRegistrationFlowBuilder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/classes/br/com/david/model/Estudante.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/classes/br/com/david/model/enums/Turno.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/faces-config.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/lib/jsf-api-2.2.13.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/lib/omnifaces-2.6.8.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/lib/primefaces-6.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/comunicacao.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/comunicacaoDois.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/conversation.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/conversation2.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/dependent.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/dependent2.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/error.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/index.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/index2.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/inicioflow.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/login.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/newpendencies/newpendencies.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/newregistration/newregistration.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/newregistration/newregistration2.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/newregistration/newregistration3.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/pendencies/pendencies-flow.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/pendencies/pendencies.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/registration/registration-flow.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/registration/registration1.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/registration/registration2.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/registration/registration3.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/request.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/restricted/iniciosistema.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/session.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/session2.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maratona_jsf/view.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/marotana_jsf.iml" afterPath="$PROJECT_DIR$/marotana_jsf.iml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/WEB-INF/lib/jsf-api-2.2.13.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/beans.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/classes/br/com/david/bean/Application/TesteApplicationBean.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/classes/br/com/david/bean/conversation/TesteConversationBean.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/classes/br/com/david/bean/dependent/TesteDependentBean.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/classes/br/com/david/bean/estudante/EstudanteRegistrarBean.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/classes/br/com/david/bean/flow/TesteFlowBean.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/classes/br/com/david/bean/flow/TesteFlowNestedBean.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/classes/br/com/david/bean/flowBuilder/TesteFlowBuilderBean.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/classes/br/com/david/bean/flowBuilder/TesteFlowBuilderNestedBean.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/classes/br/com/david/bean/login/LoginBean.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/classes/br/com/david/bean/request/TesteRequestBean.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/classes/br/com/david/bean/session/TesteSessionBean.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/classes/br/com/david/bean/view/TesteViewBean.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/classes/br/com/david/filter/LoginFilter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/classes/br/com/david/flowbuilder/NewPendencesFlowBuilder.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/classes/br/com/david/flowbuilder/NewRegistrationFlowBuilder.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/classes/br/com/david/model/Estudante.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/classes/br/com/david/model/enums/Turno.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/faces-config.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/lib/primefaces-6.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/WEB-INF/web.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/conversation.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/conversation2.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/dependent.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/dependent2.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/error.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/index.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/index2.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/inicioflow.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/login.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/newpendencies/newpendencies.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/newregistration/newregistration.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/newregistration/newregistration2.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/newregistration/newregistration3.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/pendencies/pendencies-flow.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/pendencies/pendencies.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/registration/registration-flow.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/registration/registration1.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/registration/registration2.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/registration/registration3.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/request.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/restricted/iniciosistema.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/session.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/session2.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/marotana_jsf.war/view.xhtml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/beans.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/web/comunicacao.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/comunicacao.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/comunicacaoDois.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/comunicacaoDois.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/conversation.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/conversation.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/conversation2.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/conversation2.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/dependent.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/dependent.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/dependent2.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/dependent2.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/error.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/error.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/index.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/index2.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/index2.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/inicioflow.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/inicioflow.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/login.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/login.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/newpendencies/newpendencies.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/newpendencies/newpendencies.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/newregistration/newregistration.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/newregistration/newregistration.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/newregistration/newregistration2.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/newregistration/newregistration2.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/newregistration/newregistration3.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/newregistration/newregistration3.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/pendencies/pendencies-flow.xml" afterPath="$PROJECT_DIR$/src/main/webapp/pendencies/pendencies-flow.xml" />
-      <change beforePath="$PROJECT_DIR$/web/pendencies/pendencies.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/pendencies/pendencies.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/registration/registration-flow.xml" afterPath="$PROJECT_DIR$/src/main/webapp/registration/registration-flow.xml" />
-      <change beforePath="$PROJECT_DIR$/web/registration/registration1.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/registration/registration1.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/registration/registration2.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/registration/registration2.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/registration/registration3.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/registration/registration3.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/request.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/request.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/restricted/iniciosistema.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/restricted/iniciosistema.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/session.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/session.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/session2.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/session2.xhtml" />
-      <change beforePath="$PROJECT_DIR$/web/view.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/view.xhtml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -102,7 +134,7 @@
     <SUITE FILE_PATH="coverage/estudos_JSF$JBoss_11_0_0_Final.coverage" NAME="JBoss 11.0.0.Final Coverage Results" MODIFIED="1519667750785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -210,7 +242,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="marotana_jsf" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="marotana_jsf" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -236,8 +278,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -250,7 +290,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -512,7 +554,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138247000" />
+    <option name="totallyTimeSpent" value="138384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1469" y="233" width="1920" height="1014" extended-state="6" />
@@ -520,7 +562,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.64348465" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845894" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07470651" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23585913" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -529,28 +571,55 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.34320176" sideWeight="0.69692534" order="3" side_tool="false" content_ui="tabs" x="-133" y="189" width="1499" height="483" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.34320176" sideWeight="0.69692534" order="3" side_tool="false" content_ui="tabs" x="14" y="366" width="1269" height="402" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23509562" sideWeight="0.35651538" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45894262" sideWeight="0.5885798" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.3497807" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="71" y="0" width="1295" height="267" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21771611" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.3497807" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="71" y="0" width="1295" height="265" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22038421" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.64348465" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845894" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07470651" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.34320176" sideWeight="0.69692534" order="3" side_tool="false" content_ui="tabs" x="-133" y="189" width="1499" height="483" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23574561" sideWeight="0.35651538" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45894262" sideWeight="0.5885798" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.3497807" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="71" y="0" width="1295" height="267" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21771611" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,13 +639,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/david/bean/request/TesteRequestBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/request.xhtml" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index2.xhtml">
       <provider selected="true" editor-type-id="text-editor">
@@ -614,13 +676,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/registration/registration-flow.xml">
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="47" />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/registration/registration2.xhtml">
@@ -631,13 +693,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pendencies/pendencies-flow.xml">
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="47" />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/david/bean/flow/TesteFlowNestedBean.java">
@@ -755,13 +817,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/session.xhtml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/io/Serializable.class">
@@ -814,13 +876,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/conversation.xhtml">
@@ -848,13 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="45" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -914,10 +969,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/maratona_jsf/view.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="62" lean-forward="true" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+        <state relative-caret-position="621">
+          <caret line="47" column="19" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
           <folding />
         </state>
       </provider>
