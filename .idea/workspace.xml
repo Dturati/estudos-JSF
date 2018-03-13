@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="maratona_jsf" />
+      <artifact name="marotana_jsf" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21899008-a08f-424d-ae55-8a7e08635883" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/marotana_jsf.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/marotana_jsf_war.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/marotana_jsf_war_exploded.xml" />
@@ -119,6 +120,14 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/maratona_jsf.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/marotana_jsf.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/marotana_jsf.iml" afterPath="$PROJECT_DIR$/marotana_jsf.iml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/view.xhtml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/david/bean/view/TesteViewBean.class" afterPath="$PROJECT_DIR$/target/classes/br/com/david/bean/view/TesteViewBean.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/david/filter/LoginFilter.class" afterPath="$PROJECT_DIR$/target/classes/br/com/david/filter/LoginFilter.class" />
+>>>>>>> 6399ed132a70eef7e253ceb3523a5369edbc2291
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -134,7 +143,22 @@
     <SUITE FILE_PATH="coverage/estudos_JSF$JBoss_11_0_0_Final.coverage" NAME="JBoss 11.0.0.Final Coverage Results" MODIFIED="1519667750785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+=======
+    <leaf>
+      <file leaf-file-name="view.xhtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/view.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> 6399ed132a70eef7e253ceb3523a5369edbc2291
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -151,7 +175,6 @@
       <find>testeView</find>
       <find>testeViewBean</find>
       <find>logou</find>
-      <find>packe</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -160,6 +183,7 @@
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/java/br/com/david</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -173,7 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/br/com/david/session/Teste.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/david/bean/view/TesteView.java" />
         <option value="$PROJECT_DIR$/web/session2.xhtml" />
         <option value="$PROJECT_DIR$/web/request.xhtml" />
@@ -218,12 +241,13 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/david/filter/LoginFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/david/model/Estudante.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/david/bean/login/LoginBean.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/comunicacaoDois.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/david/bean/comunicacao/ComunicacaoTesteUmBean.java" />
         <option value="$PROJECT_DIR$/web/comunicacao.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/david/bean/comunicacao/ComunicacaoTesteDoisBean.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view.xhtml" />
       </list>
     </option>
   </component>
@@ -240,6 +264,7 @@
       </MavenImportingSettings>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
@@ -256,6 +281,8 @@
       <select />
     </treeState>
   </component>
+=======
+>>>>>>> 6399ed132a70eef7e253ceb3523a5369edbc2291
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1469" />
     <option name="y" value="233" />
@@ -278,7 +305,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> 6399ed132a70eef7e253ceb3523a5369edbc2291
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,25 +316,49 @@
               <item name="maratona_jsf" type="b2602c69:ProjectViewProjectNode" />
               <item name="maratona_jsf" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="maratona_jsf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maratona_jsf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maratona_jsf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maratona_jsf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maratona_jsf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maratona_jsf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+>>>>>>> 6399ed132a70eef7e253ceb3523a5369edbc2291
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.23902768" />
+    <property name="project.structure.side.proportion" value="0.22276741" />
     <property name="DefaultHtmlFileTemplate" value="XHTML File" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documentos/maratona_java/apache-maven-3.5.2-bin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -315,7 +369,6 @@
       <recent name="$PROJECT_DIR$/web/pendencies" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/web" />
     </key>
   </component>
@@ -354,9 +407,10 @@
       <envs />
     </configuration>
     <configuration name="maratona_jsf" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 11.0.0.Final" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
-        <artifact name="maratona_jsf">
+        <artifact name="marotana_jsf">
           <settings />
         </artifact>
       </deployment>
@@ -371,7 +425,7 @@
       <predefined_log_file id="JBoss" enabled="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="35703" />
+        <option name="DEBUG_PORT" value="41971" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -420,7 +474,7 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="maratona_jsf" />
+          <artifact name="marotana_jsf" />
         </option>
       </method>
     </configuration>
@@ -535,34 +589,41 @@
       <workItem from="1519668532912" duration="2746000" />
       <workItem from="1519671797816" duration="1215000" />
       <workItem from="1520530522009" duration="14120000" />
-      <workItem from="1520599487055" duration="12572000" />
-      <workItem from="1520864989352" duration="1757000" />
-      <workItem from="1520946407726" duration="746000" />
-      <workItem from="1520947390427" duration="619000" />
-      <workItem from="1520948382226" duration="1264000" />
-      <workItem from="1520949694681" duration="9122000" />
-      <workItem from="1520962263747" duration="31000" />
+      <workItem from="1520599487055" duration="11016000" />
+      <workItem from="1520951097130" duration="3172000" />
+      <workItem from="1520962773560" duration="15000" />
+      <workItem from="1520962840711" duration="1498000" />
     </task>
-    <task id="LOCAL-00001" summary="f param">
-      <created>1520625614419</created>
+    <task id="LOCAL-00001" summary="Maven">
+      <created>1520966688113</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1520625614419</updated>
+      <updated>1520966688113</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="138384000" />
+=======
+    <option name="totallyTimeSpent" value="127837000" />
+>>>>>>> 6399ed132a70eef7e253ceb3523a5369edbc2291
   </component>
   <component name="ToolWindowManager">
-    <frame x="1469" y="233" width="1920" height="1014" extended-state="6" />
+    <frame x="1469" y="233" width="1366" height="708" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.64348465" order="7" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845894" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23585913" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+>>>>>>> 6399ed132a70eef7e253ceb3523a5369edbc2291
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -571,17 +632,30 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.34320176" sideWeight="0.69692534" order="3" side_tool="false" content_ui="tabs" x="14" y="366" width="1269" height="402" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23509562" sideWeight="0.35651538" order="8" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34210527" sideWeight="0.69692534" order="3" side_tool="false" content_ui="tabs" x="24" y="316" width="1300" height="362" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23574561" sideWeight="0.35651538" order="8" side_tool="false" content_ui="tabs" />
+>>>>>>> 6399ed132a70eef7e253ceb3523a5369edbc2291
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45894262" sideWeight="0.5885798" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.3497807" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="71" y="0" width="1295" height="265" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22038421" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26126125" sideWeight="0.5885798" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.3497807" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="539" y="202" width="297" height="183" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28623718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 6399ed132a70eef7e253ceb3523a5369edbc2291
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -596,6 +670,7 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -609,6 +684,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> 6399ed132a70eef7e253ceb3523a5369edbc2291
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45894262" sideWeight="0.5885798" order="2" side_tool="false" content_ui="tabs" />
@@ -629,8 +706,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="f param" />
-    <option name="LAST_COMMIT_MESSAGE" value="f param" />
+    <MESSAGE value="Maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maven" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -639,6 +716,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/webapp/request.xhtml" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index2.xhtml">
       <provider selected="true" editor-type-id="text-editor">
@@ -647,6 +725,10 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/web/request.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/index2.xhtml" />
+>>>>>>> 6399ed132a70eef7e253ceb3523a5369edbc2291
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/david/bean/flow/TesteFlowBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -654,6 +736,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/webapp/registration/registration3.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -702,6 +785,14 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/web/registration/registration3.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/pendencies/pendencies.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/inicioflow.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/registration/registration-flow.xml" />
+    <entry file="file://$PROJECT_DIR$/web/registration/registration2.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/pendencies/pendencies-flow.xml" />
+>>>>>>> 6399ed132a70eef7e253ceb3523a5369edbc2291
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/david/bean/flow/TesteFlowNestedBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -709,27 +800,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/newregistration/newregistration.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/newregistration/newregistration2.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/newregistration/newregistration3.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/newregistration/newregistration.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/newregistration/newregistration2.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/newregistration/newregistration3.xhtml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/david/flowbuilder/NewRegistrationFlowBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -737,33 +810,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/newpendencies/newpendencies.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/newpendencies/newpendencies.xhtml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/david/model/enums/Turno.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
+    <entry file="file://$PROJECT_DIR$/web/index.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/session2.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/dependent2.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/dependent.xhtml" />
+    <entry file="file://$PROJECT_DIR$/marotana_jsf.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/session2.xhtml" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/dependent2.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/dependent.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -774,20 +830,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/conversation2.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/error.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/conversation2.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/error.xhtml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/david/flowbuilder/NewPendencesFlowBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -795,13 +839,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/registration/registration1.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/registration/registration1.xhtml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/david/bean/view/TesteViewBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -816,6 +854,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/webapp/session.xhtml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -826,6 +865,9 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/web/session.xhtml" />
+>>>>>>> 6399ed132a70eef7e253ceb3523a5369edbc2291
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/io/Serializable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -861,6 +903,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -892,6 +935,12 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/web/login.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/beans.xml" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
+    <entry file="file://$PROJECT_DIR$/web/conversation.xhtml" />
+>>>>>>> 6399ed132a70eef7e253ceb3523a5369edbc2291
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/david/model/Estudante.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1184">
@@ -899,6 +948,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/david/filter/LoginFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -913,6 +963,9 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/web/view.xhtml" />
+>>>>>>> 6399ed132a70eef7e253ceb3523a5369edbc2291
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/david/bean/login/LoginBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -927,48 +980,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/comunicacaoDois.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/web/comunicacaoDois.xhtml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/david/bean/comunicacao/ComunicacaoTesteUmBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
+        <state relative-caret-position="510">
           <caret line="34" column="39" lean-forward="false" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/david/bean/comunicacao/ComunicacaoTesteDoisBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="140">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/comunicacao.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/david/filter/LoginFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/marotana_jsf.iml">
+    <entry file="file://$PROJECT_DIR$/web/restricted/iniciosistema.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/comunicacao.xhtml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="525">
+          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/target/maratona_jsf/view.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -989,6 +1034,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="47" column="19" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+>>>>>>> 6399ed132a70eef7e253ceb3523a5369edbc2291
           <folding />
         </state>
       </provider>
@@ -999,11 +1050,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>maratona_jsf</last-edited>
+          <last-edited>marotana_jsf</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.23902768" />
+                <option value="0.22276741" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1016,7 +1067,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.23902768" />
+                <option value="0.22276741" />
               </list>
             </option>
           </splitter-proportions>
@@ -1039,7 +1090,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.17960837" />
+                <option value="0.33793104" />
               </list>
             </option>
           </splitter-proportions>
@@ -1051,7 +1102,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.23902768" />
+                <option value="0.22276741" />
                 <option value="0.6" />
               </list>
             </option>
@@ -1064,7 +1115,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.23902768" />
+                <option value="0.22276741" />
               </list>
             </option>
           </splitter-proportions>
