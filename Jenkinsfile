@@ -33,7 +33,6 @@ pipeline {
     post{
         success {
                 step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: 'davidturati@gmail.com', sendToIndividuals: true])
-
         }
     }
 
