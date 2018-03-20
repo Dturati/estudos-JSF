@@ -35,6 +35,8 @@ public class ComunicacaoTesteUmBean implements Serializable{
         System.out.println(initParameter);
     }
 
+
+
     public String save(){
         System.out.println(this.nome);
         System.out.println(this.sobrenome);

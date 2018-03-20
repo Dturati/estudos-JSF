@@ -19,10 +19,11 @@
         <h:outputLabel>Parametro dois</h:outputLabel>
         <h:panelGrid columns="1">
             <br></br>
-            <h:inputText value="#{comunicacaoTesteUmBean.nome}"></h:inputText>
+            <h:inputText name="nome" value="#{comunicacaoTesteUmBean.nome}"></h:inputText>
             <h:inputText value="#{comunicacaoTesteUmBean.sobrenome}"></h:inputText>
             <h:button value="Save" outcome="comunicacaoDois?faces-redirect=true">
-                <f:param name="nome" value="Mane"></f:param>
+                <f:param name="nome" value="David"></f:param>
+                <f:param name="sobrenome" value="Turati"></f:param>
             </h:button>
         </h:panelGrid>
     </h:form>
