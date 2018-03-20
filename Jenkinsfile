@@ -1,6 +1,11 @@
 #!/usr/bin/env groovy
 
 node {
+    git 'https://github.com/Dturati/estudos-JSF'
+}
+
+
+node {
     sh 'mvn clean install'
 }
 
