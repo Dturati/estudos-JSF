@@ -11,12 +11,6 @@ pipeline {
             }
         }
 
-        stage('git pull'){
-            steps{
-                sh 'git pull'
-            }
-        }
-
         stage('Build com maven'){
             steps{
                 sh 'mvn clean install'
