@@ -4,6 +4,9 @@ node {
     git 'https://github.com/Dturati/estudos-JSF'
 }
 
+node {
+    sh 'git pull'
+}
 
 node {
     sh 'mvn clean install'
