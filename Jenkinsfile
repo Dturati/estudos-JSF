@@ -5,7 +5,7 @@ node {
 }
 
 node {
-    sh 'git pull'
+    sh 'git pull origin master'
 }
 
 node {
