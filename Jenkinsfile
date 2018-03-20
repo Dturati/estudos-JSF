@@ -11,6 +11,12 @@ pipeline {
             }
         }
 
+        stage('git pull'){
+            steps{
+                sh 'git pull origin versao-0.1'
+            }
+        }
+
         stage('Build com maven'){
             steps{
                 sh 'mvn clean install'
