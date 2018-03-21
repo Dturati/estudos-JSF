@@ -1,5 +1,6 @@
 package br.com.david.bean.comunicacao;
 
+import javax.annotation.PostConstruct;
 import javax.faces.context.FacesContext;
 import javax.faces.view.ViewScoped;
 import javax.inject.Named;
@@ -11,6 +12,11 @@ public class ComunicacaoTesteUmBean implements Serializable{
 
     private String nome;
     private String sobrenome;
+
+    @PostConstruct
+    public void init(){
+        System.out.println("Entrou no @PostConstruct do ComunicacaoTesteUmBean");
+    }
 
     public String getNome() {
         return nome;
@@ -34,7 +40,6 @@ public class ComunicacaoTesteUmBean implements Serializable{
                 .getInitParameter("images.location");
         System.out.println(initParameter);
     }
-
 
 
     public String save(){

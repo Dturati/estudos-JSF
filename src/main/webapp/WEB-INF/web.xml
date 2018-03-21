@@ -43,7 +43,7 @@
 
     <context-param>
         <param-name>images.location</param-name>
-        <param-value>/var</param-value>
+        <param-value>/home/david/Documentos</param-value>
     </context-param>
 
 </web-app>
