@@ -5,6 +5,7 @@ import javax.faces.context.FacesContext;
 import javax.faces.view.ViewScoped;
 import javax.inject.Named;
 import java.io.Serializable;
+import java.util.Date;
 
 @Named
 @ViewScoped
@@ -12,6 +13,24 @@ public class ComunicacaoTesteUmBean implements Serializable{
 
     private String nome;
     private String sobrenome;
+    private Date data = new Date();
+    private Date data2 = new Date();
+
+    public Date getData2() {
+        return data2;
+    }
+
+    public void setData2(Date data2) {
+        this.data2 = data2;
+    }
+
+    public Date getData() {
+        return data;
+    }
+
+    public void setData(Date data) {
+        this.data = data;
+    }
 
     @PostConstruct
     public void init(){

@@ -8,6 +8,7 @@ import javax.faces.view.ViewScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 import java.io.Serializable;
+import java.util.Date;
 import java.util.Map;
 
 @Named
@@ -16,6 +17,24 @@ public class ComunicacaoTesteTresBean implements Serializable{
 
     private String nome;
     private String sobrenome;
+    private String data;
+    private String data2;
+
+    public String getData2() {
+        return data2;
+    }
+
+    public void setData2(String data2) {
+        this.data2 = data2;
+    }
+
+    public String getData() {
+        return data;
+    }
+
+    public void setData(String data) {
+        this.data = data;
+    }
 
     public String getNome() {
         return nome;
@@ -35,10 +54,20 @@ public class ComunicacaoTesteTresBean implements Serializable{
 
 //    @PostConstruct
     public void init(){
-        System.out.println("Post construct do Comunicao tres");
-        System.out.println(this.nome);
-        System.out.println(this.sobrenome);
 
+        //Não é uma requisição ajax
+//        if(!FacesContext.getCurrentInstance().isPostback()){
+            System.out.println("Post construct do Comunicacao tres");
+            System.out.println(this.nome);
+            System.out.println(this.sobrenome);
+//        }
+
+
+    }
+
+    public String save(){
+        System.out.println("Salvando");
+        return "resultado?faces-redirect=true&amp;includeViewParams=true";
     }
 
     public void imprimirAtributos(){

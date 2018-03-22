@@ -5,23 +5,38 @@
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core"
-      xmlns:p="http://primefaces.org/ui">
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:o="http://omnifaces.org/ui"
+>
 <h:head></h:head>
 <f:metadata>
     <f:viewParam name="nome" value="#{comunicacaoTesteTresBean.nome}"></f:viewParam>
     <f:viewParam name="sobrenome" value="#{comunicacaoTesteTresBean.sobrenome}"></f:viewParam>
-    <f:event type="preRenderView" listener="#{comunicacaoTesteTresBean.init}"></f:event>
+    <f:viewParam name="data" value="#{comunicacaoTesteTresBean.data}"></f:viewParam>
+    <f:viewParam name="data2" value="#{comunicacaoTesteTresBean.data2}">
+        <f:convertDateTime pattern="dd-MM-yyyy"></f:convertDateTime>
+    </f:viewParam>
+    <!--<f:event type="preRenderView" listener="#{comunicacaoTesteTresBean.init}"></f:event>-->
+    <!--Se for uma um ajax-->
+    <f:viewAction action="#{comunicacaoTesteTresBean.init}" onPostback="false"></f:viewAction>
 </f:metadata>
 <h:body>
-    <h:form>
-        <h:outputLabel>Parametro dois</h:outputLabel>
+    <o:form includeRequestParams="true">
+        <h:outputLabel>Parametro Tres</h:outputLabel>
+        <!--<h:outputLabel>#{comunicacaoTesteTresBean.data}</h:outputLabel>-->
+        <p:messages autoUpdate="true"></p:messages>
         <h:panelGrid columns="1">
             <br></br>
-            <h:inputText value="#{comunicacaoTesteTresBean.nome}"></h:inputText>
+            <h:inputText value="#{comunicacaoTesteTresBean.nome}" required="true" requiredMessage="Obrigatório">
+                <f:ajax event="blur"></f:ajax>
+            </h:inputText>
             <h:inputText value="#{comunicacaoTesteTresBean.sobrenome}"></h:inputText>
-            <h:commandButton value="Resultado" action="resultado?faces-redirect=true&amp;includeViewParams=true"></h:commandButton>
+            <h:inputText value="#{comunicacaoTesteTresBean.data}"></h:inputText>
+            <h:inputText value="#{comunicacaoTesteTresBean.data2}"></h:inputText>
+            <!--<h:commandButton value="Resultado" action="resultado?faces-redirect=true&amp;includeViewParams=true"></h:commandButton>-->
+            <h:commandButton value="Resultado" action="#{comunicacaoTesteTresBean.save}"></h:commandButton>
         </h:panelGrid>
-    </h:form>
+    </o:form>
 </h:body>
 
 </html>

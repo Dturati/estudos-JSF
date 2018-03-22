@@ -5,7 +5,9 @@
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core"
-      xmlns:p="http://primefaces.org/ui">
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:of="http://omnifaces.org/functions"
+>
 <h:head></h:head>
 <h:body>
     <h:form>
@@ -31,7 +33,10 @@
             <h:button value="Salvar Tres" outcome="comunicacaoTres?faces-redirect=true">
                 <f:param name="nome" value="David Tres"></f:param>
                 <f:param name="sobrenome" value="Turati"></f:param>
-                <h:commandButton value="Resultado" action="resultado?faces-redirect=true&amp;includeViewParams=true"></h:commandButton>
+                <f:param name="data" value="#{comunicacaoTesteUmBean.data}"></f:param>
+                <f:param name="data" value="#{of:formatDate(comunicacaoTesteUmBean.data, 'dd-MM-yyyy')}"></f:param>
+                <f:param name="data2" value="#{of:formatDate(comunicacaoTesteUmBean.data2, 'dd-MM-yyyy')}"></f:param>
+                <!--<h:commandButton value="Resultado" action="resultado?faces-redirect=true&amp;includeViewParams=true"></h:commandButton>-->
             </h:button>
 
         </h:panelGrid>
