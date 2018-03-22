@@ -21,13 +21,13 @@ pipeline {
 
         stage('Build com maven'){
             steps{
-                sh 'mvn clean install'
+                sh 'sudo mvn clean install'
             }
         }
 
         stage('Deploy:copiando war'){
             steps{
-                sh "cp target/maratona_jsf.war /home/david/Documentos/maratona_java/wildfly-11.0.0.Final/standalone/deployments"
+                sh "sudo cp target/maratona_jsf.war /home/david/Documentos/maratona_java/wildfly-11.0.0.Final/standalone/deployments"
             }
         }
     }
