@@ -13,6 +13,8 @@ pipeline {
 
         stage('git pull'){
             steps{
+                sh 'git config --global user.email "davidturati@gmail.com"'
+                sh 'git config --global user.name "Dturati'
                 sh 'git pull origin versao-0.1'
             }
         }
